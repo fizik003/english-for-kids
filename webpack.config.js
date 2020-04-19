@@ -41,10 +41,10 @@ module.exports = {
         test: /\.(ttf|wolf|wolf2|eot)$/,
         use: ['file-loader']
       },
-      {
-        test: /\.html$/,
-        loader: 'html-loader',
-      },
+      // {
+      //   test: /\.html$/,
+      //   loader: 'html-loader',
+      // },
     ],
   },
   plugins: [
