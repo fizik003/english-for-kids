@@ -3,7 +3,7 @@
 @import "./hamburger.css";
 
 .header-container {
-    background-color: aqua;
+    /* background-color: aqua; */
     /* height: 300px; */
     width: 100%;
     display: flex;
@@ -13,52 +13,6 @@
     margin-right: auto;
     /* position: relative; */
 }
-
-.navigation{
-    position: absolute;
-    height: 100%;
-    width: 300px;
-    background-color: lightcoral;
-    left: -300px;
-    transition: .5s all;
-    z-index: 1;
-    
-    
-}
-
-
-
-.show-burger{
-    left: 0px;
-    animation-duration: 0.5s;
-    animation-name: slidein;
-}
-
-.nav{
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    padding: 125px 50px 50px;
-}
-
-.nav-item{
-    padding-top: 10px;
-    font-size: 22px;
-}
-
-
-@keyframes slidein {
-    from {
-        left: -300px;
-    }
-    to {
-        left: 0;
-    }
-}
-
-
-
-
 /* content block */
 .main-container {
     margin-top: 80px;
@@ -70,7 +24,7 @@
     display: flex;
     width: 100%;
     height: auto;
-    justify-content: space-around;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -85,6 +39,7 @@
     cursor: pointer;
     opacity: 1;
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    margin: 20px 25px;
 }
 .card:hover{
     box-shadow: 0 2px 5px 5px rgba(0,0,0,.16), 0 2px 10px 5px rgba(0,0,0,.12);
@@ -104,4 +59,12 @@
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.card-title{
+    margin-top: 40px;
+    font-family: "Roboto";
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
 }

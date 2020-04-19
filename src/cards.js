@@ -1,6 +1,6 @@
 const cards = [ 
-  ['Action (set A)', 'Action (set B)', 'Animal (set A)', 'Animal (set B)', 'Clothes', 'Emotions'],
-  ['img/cry.jpg', 'img/play.jpg','img/cat.jpg','img/fish.jpg','img/dress.jpg','img/smile.jpg'],
+  ['Action (set A)', 'Action (set B)','Action (set C)','Adjective', 'Animal (set A)', 'Animal (set B)', 'Clothes', 'Emotions'],
+  ['img/dance.jpg', 'img/swim.jpg','img/drop.jpg','img/friendly.jpg','img/cat.jpg','img/bird.jpg', 'img/blouse.jpg','img/smile.jpg'],
   [
     {
       word: 'cry',

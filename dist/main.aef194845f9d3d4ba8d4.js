@@ -104,7 +104,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../c
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".hamburger{\\r\\n    position: absolute;\\r\\n    width: 25px;\\r\\n    height: 25px;\\r\\n    left: 30px;\\r\\n    display: inline-block;\\r\\n    margin-top: 5px;\\r\\n    z-index: 3;\\r\\n}\\r\\n\\r\\n.hamburger::before {\\r\\n    content: '';\\r\\n    position: absolute;\\r\\n    display: inline-block;\\r\\n    height: 4px;\\r\\n    width: 100%;\\r\\n    border-radius: 5px;\\r\\n    background-color: rgb(100, 98, 98);\\r\\n    top: calc(50% - 3.1px);\\r\\n}\\r\\n\\r\\n.hamburger::after{\\r\\n    content: '';\\r\\n    position: absolute;\\r\\n    display: inline-block;\\r\\n    height: 4px;\\r\\n    width: 100%;\\r\\n    border-radius: 5px;\\r\\n    background-color: rgb(100, 98, 98);\\r\\n    bottom: 2px;\\r\\n\\r\\n}\\r\\n\\r\\n.hamburger_line {\\r\\n    top: 0;\\r\\n    position: absolute;\\r\\n    display: inline-block;\\r\\n    height: 4px;\\r\\n    width: 100%;\\r\\n    border-radius: 5px;\\r\\n    background-color: rgb(100, 98, 98);\\r\\n}\\r\\n\\r\\n.hamburger-transform {\\r\\n    margin-top: -12px;\\r\\n    transform: rotate(90deg);\\r\\n}\\r\\n\\r\\n.burger {\\r\\n    position: relative;\\r\\n    top: 20px;\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/styles/hamburger.css?./node_modules/css-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \".hamburger{\\r\\n    position: absolute;\\r\\n    width: 25px;\\r\\n    height: 25px;\\r\\n    left: 30px;\\r\\n    display: inline-block;\\r\\n    margin-top: 5px;\\r\\n    z-index: 3;\\r\\n    transition: .5s all;\\r\\n}\\r\\n\\r\\n.navigation{\\r\\n    position: absolute;\\r\\n    height: 100%;\\r\\n    width: 300px;\\r\\n    background: linear-gradient(40deg,#00bf82,#0099ae);\\r\\n    left: -300px;\\r\\n    transition: .5s all;\\r\\n    z-index: 1;\\r\\n    \\r\\n    \\r\\n}\\r\\n\\r\\n.hamburger::before {\\r\\n    content: '';\\r\\n    position: absolute;\\r\\n    display: inline-block;\\r\\n    height: 4px;\\r\\n    width: 100%;\\r\\n    border-radius: 5px;\\r\\n    background-color: rgb(100, 98, 98);\\r\\n    top: calc(50% - 3.1px);\\r\\n}\\r\\n\\r\\n.hamburger::after{\\r\\n    content: '';\\r\\n    position: absolute;\\r\\n    display: inline-block;\\r\\n    height: 4px;\\r\\n    width: 100%;\\r\\n    border-radius: 5px;\\r\\n    background-color: rgb(100, 98, 98);\\r\\n    bottom: 2px;\\r\\n\\r\\n}\\r\\n\\r\\n.hamburger_line {\\r\\n    top: 0;\\r\\n    position: absolute;\\r\\n    display: inline-block;\\r\\n    height: 4px;\\r\\n    width: 100%;\\r\\n    border-radius: 5px;\\r\\n    background-color: rgb(100, 98, 98);\\r\\n}\\r\\n\\r\\n.hamburger-transform {\\r\\n    transform: rotate(90deg);\\r\\n    transition: .5s all;\\r\\n}\\r\\n\\r\\n.burger {\\r\\n    position: relative;\\r\\n    top: 20px;\\r\\n}\\r\\n\\r\\n.show-burger{\\r\\n    left: 0px;\\r\\n    animation-duration: 0.5s;\\r\\n    animation-name: slidein;\\r\\n}\\r\\n\\r\\n.nav{\\r\\n    list-style-type: none;\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n    padding: 125px 50px 50px;\\r\\n}\\r\\n\\r\\n.nav-item{\\r\\n    padding-top: 10px;\\r\\n    font-size: 22px;\\r\\n}\\r\\n\\r\\n\\r\\n@keyframes slidein {\\r\\n    from {\\r\\n        left: -300px;\\r\\n    }\\r\\n    to {\\r\\n        left: 0;\\r\\n    }\\r\\n}\\r\\n\\r\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/styles/hamburger.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -115,7 +115,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!../../node_modules/normalize.css */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/normalize.css/normalize.css\");\nvar ___CSS_LOADER_AT_RULE_IMPORT_1___ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./switcher.css */ \"./node_modules/css-loader/dist/cjs.js!./src/styles/switcher.css\");\nvar ___CSS_LOADER_AT_RULE_IMPORT_2___ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./hamburger.css */ \"./node_modules/css-loader/dist/cjs.js!./src/styles/hamburger.css\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nexports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);\nexports.i(___CSS_LOADER_AT_RULE_IMPORT_1___);\nexports.i(___CSS_LOADER_AT_RULE_IMPORT_2___);\n// Module\nexports.push([module.i, \".header-container {\\r\\n    background-color: aqua;\\r\\n    /* height: 300px; */\\r\\n    width: 100%;\\r\\n    display: flex;\\r\\n    justify-content: space-between;\\r\\n    max-width: 1350px;\\r\\n    margin-left: auto;\\r\\n    margin-right: auto;\\r\\n    /* position: relative; */\\r\\n}\\r\\n\\r\\n.navigation{\\r\\n    position: absolute;\\r\\n    height: 100%;\\r\\n    width: 300px;\\r\\n    background-color: lightcoral;\\r\\n    left: -300px;\\r\\n    transition: .5s all;\\r\\n    z-index: 1;\\r\\n    \\r\\n    \\r\\n}\\r\\n\\r\\n\\r\\n\\r\\n.show-burger{\\r\\n    left: 0px;\\r\\n    animation-duration: 0.5s;\\r\\n    animation-name: slidein;\\r\\n}\\r\\n\\r\\n.nav{\\r\\n    list-style-type: none;\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n    padding: 125px 50px 50px;\\r\\n}\\r\\n\\r\\n.nav-item{\\r\\n    padding-top: 10px;\\r\\n    font-size: 22px;\\r\\n}\\r\\n\\r\\n\\r\\n@keyframes slidein {\\r\\n    from {\\r\\n        left: -300px;\\r\\n    }\\r\\n    to {\\r\\n        left: 0;\\r\\n    }\\r\\n}\\r\\n\\r\\n\\r\\n\\r\\n\\r\\n/* content block */\\r\\n.main-container {\\r\\n    margin-top: 80px;\\r\\n    max-width: 1350px;\\r\\n    margin-left: auto;\\r\\n    margin-right: auto;\\r\\n}\\r\\n.wrapper-content{\\r\\n    display: flex;\\r\\n    width: 100%;\\r\\n    height: auto;\\r\\n    justify-content: space-around;\\r\\n    flex-wrap: wrap;\\r\\n}\\r\\n\\r\\n\\r\\n.card{\\r\\n    position: relative;\\r\\n    width: 280px;\\r\\n    height: 280px;\\r\\n    margin-bottom: 25px;\\r\\n    background: linear-gradient(to bottom, #3BAFDA 0%, #48CFAD 40%, white 40%, white 100%);\\r\\n    perspective: 1000px;\\r\\n    cursor: pointer;\\r\\n    opacity: 1;\\r\\n    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);\\r\\n}\\r\\n.card:hover{\\r\\n    box-shadow: 0 2px 5px 5px rgba(0,0,0,.16), 0 2px 10px 5px rgba(0,0,0,.12);\\r\\n    transition: .5s all;\\r\\n}\\r\\n\\r\\n.front {\\r\\n    text-align: center;\\r\\n}\\r\\n\\r\\n.img-card {\\r\\n    height: 140px;\\r\\n    width: 140px;\\r\\n    border-radius: 50%;\\r\\n    object-fit: cover;\\r\\n    border: 10px solid #fff;\\r\\n    margin-top: 30px;\\r\\n    margin-left: auto;\\r\\n    margin-right: auto;\\r\\n}\\r\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/styles/style.css?./node_modules/css-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nvar ___CSS_LOADER_AT_RULE_IMPORT_0___ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!../../node_modules/normalize.css */ \"./node_modules/css-loader/dist/cjs.js!./node_modules/normalize.css/normalize.css\");\nvar ___CSS_LOADER_AT_RULE_IMPORT_1___ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./switcher.css */ \"./node_modules/css-loader/dist/cjs.js!./src/styles/switcher.css\");\nvar ___CSS_LOADER_AT_RULE_IMPORT_2___ = __webpack_require__(/*! -!../../node_modules/css-loader/dist/cjs.js!./hamburger.css */ \"./node_modules/css-loader/dist/cjs.js!./src/styles/hamburger.css\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\nexports.i(___CSS_LOADER_AT_RULE_IMPORT_0___);\nexports.i(___CSS_LOADER_AT_RULE_IMPORT_1___);\nexports.i(___CSS_LOADER_AT_RULE_IMPORT_2___);\n// Module\nexports.push([module.i, \".header-container {\\r\\n    /* background-color: aqua; */\\r\\n    /* height: 300px; */\\r\\n    width: 100%;\\r\\n    display: flex;\\r\\n    justify-content: space-between;\\r\\n    max-width: 1350px;\\r\\n    margin-left: auto;\\r\\n    margin-right: auto;\\r\\n    /* position: relative; */\\r\\n}\\r\\n/* content block */\\r\\n.main-container {\\r\\n    margin-top: 80px;\\r\\n    max-width: 1350px;\\r\\n    margin-left: auto;\\r\\n    margin-right: auto;\\r\\n}\\r\\n.wrapper-content{\\r\\n    display: flex;\\r\\n    width: 100%;\\r\\n    height: auto;\\r\\n    justify-content: center;\\r\\n    flex-wrap: wrap;\\r\\n}\\r\\n\\r\\n\\r\\n.card{\\r\\n    position: relative;\\r\\n    width: 280px;\\r\\n    height: 280px;\\r\\n    margin-bottom: 25px;\\r\\n    background: linear-gradient(to bottom, #3BAFDA 0%, #48CFAD 40%, white 40%, white 100%);\\r\\n    perspective: 1000px;\\r\\n    cursor: pointer;\\r\\n    opacity: 1;\\r\\n    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);\\r\\n    margin: 20px 25px;\\r\\n}\\r\\n.card:hover{\\r\\n    box-shadow: 0 2px 5px 5px rgba(0,0,0,.16), 0 2px 10px 5px rgba(0,0,0,.12);\\r\\n    transition: .5s all;\\r\\n}\\r\\n\\r\\n.front {\\r\\n    text-align: center;\\r\\n}\\r\\n\\r\\n.img-card {\\r\\n    height: 140px;\\r\\n    width: 140px;\\r\\n    border-radius: 50%;\\r\\n    object-fit: cover;\\r\\n    border: 10px solid #fff;\\r\\n    margin-top: 30px;\\r\\n    margin-left: auto;\\r\\n    margin-right: auto;\\r\\n}\\r\\n\\r\\n.card-title{\\r\\n    margin-top: 40px;\\r\\n    font-family: \\\"Roboto\\\";\\r\\n    font-size: 24px;\\r\\n    line-height: 36px;\\r\\n    font-weight: 400;\\r\\n}\\r\\n\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/styles/style.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -161,7 +161,7 @@ eval("\n\nvar isOldIE = function isOldIE() {\n  var memo;\n  return function mem
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("var map = {\n\t\"./assets/123.png\": \"./src/assets/123.png\",\n\t\"./audio/angry.mp3\": \"./src/audio/angry.mp3\",\n\t\"./audio/bird.mp3\": \"./src/audio/bird.mp3\",\n\t\"./audio/blouse.mp3\": \"./src/audio/blouse.mp3\",\n\t\"./audio/boot.mp3\": \"./src/audio/boot.mp3\",\n\t\"./audio/cat.mp3\": \"./src/audio/cat.mp3\",\n\t\"./audio/chick.mp3\": \"./src/audio/chick.mp3\",\n\t\"./audio/chicken.mp3\": \"./src/audio/chicken.mp3\",\n\t\"./audio/coat.mp3\": \"./src/audio/coat.mp3\",\n\t\"./audio/correct.mp3\": \"./src/audio/correct.mp3\",\n\t\"./audio/cry.mp3\": \"./src/audio/cry.mp3\",\n\t\"./audio/dance.mp3\": \"./src/audio/dance.mp3\",\n\t\"./audio/dive.mp3\": \"./src/audio/dive.mp3\",\n\t\"./audio/dog.mp3\": \"./src/audio/dog.mp3\",\n\t\"./audio/dolphin.mp3\": \"./src/audio/dolphin.mp3\",\n\t\"./audio/draw.mp3\": \"./src/audio/draw.mp3\",\n\t\"./audio/dress.mp3\": \"./src/audio/dress.mp3\",\n\t\"./audio/error.mp3\": \"./src/audio/error.mp3\",\n\t\"./audio/failure.mp3\": \"./src/audio/failure.mp3\",\n\t\"./audio/fish.mp3\": \"./src/audio/fish.mp3\",\n\t\"./audio/fly.mp3\": \"./src/audio/fly.mp3\",\n\t\"./audio/frog.mp3\": \"./src/audio/frog.mp3\",\n\t\"./audio/giraffe.mp3\": \"./src/audio/giraffe.mp3\",\n\t\"./audio/happy.mp3\": \"./src/audio/happy.mp3\",\n\t\"./audio/horse.mp3\": \"./src/audio/horse.mp3\",\n\t\"./audio/hug.mp3\": \"./src/audio/hug.mp3\",\n\t\"./audio/jump.mp3\": \"./src/audio/jump.mp3\",\n\t\"./audio/laugh.mp3\": \"./src/audio/laugh.mp3\",\n\t\"./audio/lion.mp3\": \"./src/audio/lion.mp3\",\n\t\"./audio/mouse.mp3\": \"./src/audio/mouse.mp3\",\n\t\"./audio/open.mp3\": \"./src/audio/open.mp3\",\n\t\"./audio/pants.mp3\": \"./src/audio/pants.mp3\",\n\t\"./audio/pig.mp3\": \"./src/audio/pig.mp3\",\n\t\"./audio/play.mp3\": \"./src/audio/play.mp3\",\n\t\"./audio/point.mp3\": \"./src/audio/point.mp3\",\n\t\"./audio/rabbit.mp3\": \"./src/audio/rabbit.mp3\",\n\t\"./audio/ride.mp3\": \"./src/audio/ride.mp3\",\n\t\"./audio/run.mp3\": \"./src/audio/run.mp3\",\n\t\"./audio/sad.mp3\": \"./src/audio/sad.mp3\",\n\t\"./audio/scared.mp3\": \"./src/audio/scared.mp3\",\n\t\"./audio/sheep.mp3\": \"./src/audio/sheep.mp3\",\n\t\"./audio/shirt.mp3\": \"./src/audio/shirt.mp3\",\n\t\"./audio/shoe.mp3\": \"./src/audio/shoe.mp3\",\n\t\"./audio/sing.mp3\": \"./src/audio/sing.mp3\",\n\t\"./audio/skip.mp3\": \"./src/audio/skip.mp3\",\n\t\"./audio/skirt.mp3\": \"./src/audio/skirt.mp3\",\n\t\"./audio/smile.mp3\": \"./src/audio/smile.mp3\",\n\t\"./audio/success.mp3\": \"./src/audio/success.mp3\",\n\t\"./audio/surprised.mp3\": \"./src/audio/surprised.mp3\",\n\t\"./audio/swim.mp3\": \"./src/audio/swim.mp3\",\n\t\"./audio/tired.mp3\": \"./src/audio/tired.mp3\",\n\t\"./audio/turtle.mp3\": \"./src/audio/turtle.mp3\",\n\t\"./cards\": \"./src/cards.js\",\n\t\"./cards.js\": \"./src/cards.js\",\n\t\"./img/angry.jpg\": \"./src/img/angry.jpg\",\n\t\"./img/audio.svg\": \"./src/img/audio.svg\",\n\t\"./img/bird.jpg\": \"./src/img/bird.jpg\",\n\t\"./img/blouse.jpg\": \"./src/img/blouse.jpg\",\n\t\"./img/boot.jpg\": \"./src/img/boot.jpg\",\n\t\"./img/cat.jpg\": \"./src/img/cat.jpg\",\n\t\"./img/chick.jpg\": \"./src/img/chick.jpg\",\n\t\"./img/chicken.jpg\": \"./src/img/chicken.jpg\",\n\t\"./img/coat.jpg\": \"./src/img/coat.jpg\",\n\t\"./img/cry.jpg\": \"./src/img/cry.jpg\",\n\t\"./img/dance.jpg\": \"./src/img/dance.jpg\",\n\t\"./img/dive.jpg\": \"./src/img/dive.jpg\",\n\t\"./img/dog.jpg\": \"./src/img/dog.jpg\",\n\t\"./img/dolphin.jpg\": \"./src/img/dolphin.jpg\",\n\t\"./img/draw.jpg\": \"./src/img/draw.jpg\",\n\t\"./img/dress.jpg\": \"./src/img/dress.jpg\",\n\t\"./img/drop.jpg\": \"./src/img/drop.jpg\",\n\t\"./img/failure.jpg\": \"./src/img/failure.jpg\",\n\t\"./img/fish.jpg\": \"./src/img/fish.jpg\",\n\t\"./img/fish1.jpg\": \"./src/img/fish1.jpg\",\n\t\"./img/fly.jpg\": \"./src/img/fly.jpg\",\n\t\"./img/frog.jpg\": \"./src/img/frog.jpg\",\n\t\"./img/giraffe.jpg\": \"./src/img/giraffe.jpg\",\n\t\"./img/happy.jpg\": \"./src/img/happy.jpg\",\n\t\"./img/horse.jpg\": \"./src/img/horse.jpg\",\n\t\"./img/hug.jpg\": \"./src/img/hug.jpg\",\n\t\"./img/jump.jpg\": \"./src/img/jump.jpg\",\n\t\"./img/laugh.jpg\": \"./src/img/laugh.jpg\",\n\t\"./img/lion.jpg\": \"./src/img/lion.jpg\",\n\t\"./img/mouse.jpg\": \"./src/img/mouse.jpg\",\n\t\"./img/open.jpg\": \"./src/img/open.jpg\",\n\t\"./img/pants.jpg\": \"./src/img/pants.jpg\",\n\t\"./img/pig.jpg\": \"./src/img/pig.jpg\",\n\t\"./img/play.jpg\": \"./src/img/play.jpg\",\n\t\"./img/point.jpg\": \"./src/img/point.jpg\",\n\t\"./img/rabbit.jpg\": \"./src/img/rabbit.jpg\",\n\t\"./img/repeat.svg\": \"./src/img/repeat.svg\",\n\t\"./img/ride.jpg\": \"./src/img/ride.jpg\",\n\t\"./img/rotate.svg\": \"./src/img/rotate.svg\",\n\t\"./img/run.jpg\": \"./src/img/run.jpg\",\n\t\"./img/sad.jpg\": \"./src/img/sad.jpg\",\n\t\"./img/scared.jpg\": \"./src/img/scared.jpg\",\n\t\"./img/screenshot.png\": \"./src/img/screenshot.png\",\n\t\"./img/sheep.jpg\": \"./src/img/sheep.jpg\",\n\t\"./img/shirt.jpg\": \"./src/img/shirt.jpg\",\n\t\"./img/shoe.jpg\": \"./src/img/shoe.jpg\",\n\t\"./img/sing.jpg\": \"./src/img/sing.jpg\",\n\t\"./img/skip.jpg\": \"./src/img/skip.jpg\",\n\t\"./img/skirt.jpg\": \"./src/img/skirt.jpg\",\n\t\"./img/smile.jpg\": \"./src/img/smile.jpg\",\n\t\"./img/star-win.svg\": \"./src/img/star-win.svg\",\n\t\"./img/star.svg\": \"./src/img/star.svg\",\n\t\"./img/success.jpg\": \"./src/img/success.jpg\",\n\t\"./img/surprised.jpg\": \"./src/img/surprised.jpg\",\n\t\"./img/swim.jpg\": \"./src/img/swim.jpg\",\n\t\"./img/tired.jpg\": \"./src/img/tired.jpg\",\n\t\"./img/turtle.jpg\": \"./src/img/turtle.jpg\",\n\t\"./index.html\": \"./src/index.html\",\n\t\"./script\": \"./src/script.js\",\n\t\"./script.js\": \"./src/script.js\",\n\t\"./styles/hamburger.css\": \"./src/styles/hamburger.css\",\n\t\"./styles/style.css\": \"./src/styles/style.css\",\n\t\"./styles/switcher.css\": \"./src/styles/switcher.css\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack:///./src_sync_^\\.\\/.*$?");
+eval("var map = {\n\t\"./assets/123.png\": \"./src/assets/123.png\",\n\t\"./audio/angry.mp3\": \"./src/audio/angry.mp3\",\n\t\"./audio/bird.mp3\": \"./src/audio/bird.mp3\",\n\t\"./audio/blouse.mp3\": \"./src/audio/blouse.mp3\",\n\t\"./audio/boot.mp3\": \"./src/audio/boot.mp3\",\n\t\"./audio/cat.mp3\": \"./src/audio/cat.mp3\",\n\t\"./audio/chick.mp3\": \"./src/audio/chick.mp3\",\n\t\"./audio/chicken.mp3\": \"./src/audio/chicken.mp3\",\n\t\"./audio/coat.mp3\": \"./src/audio/coat.mp3\",\n\t\"./audio/correct.mp3\": \"./src/audio/correct.mp3\",\n\t\"./audio/cry.mp3\": \"./src/audio/cry.mp3\",\n\t\"./audio/dance.mp3\": \"./src/audio/dance.mp3\",\n\t\"./audio/dive.mp3\": \"./src/audio/dive.mp3\",\n\t\"./audio/dog.mp3\": \"./src/audio/dog.mp3\",\n\t\"./audio/dolphin.mp3\": \"./src/audio/dolphin.mp3\",\n\t\"./audio/draw.mp3\": \"./src/audio/draw.mp3\",\n\t\"./audio/dress.mp3\": \"./src/audio/dress.mp3\",\n\t\"./audio/error.mp3\": \"./src/audio/error.mp3\",\n\t\"./audio/failure.mp3\": \"./src/audio/failure.mp3\",\n\t\"./audio/fish.mp3\": \"./src/audio/fish.mp3\",\n\t\"./audio/fly.mp3\": \"./src/audio/fly.mp3\",\n\t\"./audio/frog.mp3\": \"./src/audio/frog.mp3\",\n\t\"./audio/giraffe.mp3\": \"./src/audio/giraffe.mp3\",\n\t\"./audio/happy.mp3\": \"./src/audio/happy.mp3\",\n\t\"./audio/horse.mp3\": \"./src/audio/horse.mp3\",\n\t\"./audio/hug.mp3\": \"./src/audio/hug.mp3\",\n\t\"./audio/jump.mp3\": \"./src/audio/jump.mp3\",\n\t\"./audio/laugh.mp3\": \"./src/audio/laugh.mp3\",\n\t\"./audio/lion.mp3\": \"./src/audio/lion.mp3\",\n\t\"./audio/mouse.mp3\": \"./src/audio/mouse.mp3\",\n\t\"./audio/open.mp3\": \"./src/audio/open.mp3\",\n\t\"./audio/pants.mp3\": \"./src/audio/pants.mp3\",\n\t\"./audio/pig.mp3\": \"./src/audio/pig.mp3\",\n\t\"./audio/play.mp3\": \"./src/audio/play.mp3\",\n\t\"./audio/point.mp3\": \"./src/audio/point.mp3\",\n\t\"./audio/rabbit.mp3\": \"./src/audio/rabbit.mp3\",\n\t\"./audio/ride.mp3\": \"./src/audio/ride.mp3\",\n\t\"./audio/run.mp3\": \"./src/audio/run.mp3\",\n\t\"./audio/sad.mp3\": \"./src/audio/sad.mp3\",\n\t\"./audio/scared.mp3\": \"./src/audio/scared.mp3\",\n\t\"./audio/sheep.mp3\": \"./src/audio/sheep.mp3\",\n\t\"./audio/shirt.mp3\": \"./src/audio/shirt.mp3\",\n\t\"./audio/shoe.mp3\": \"./src/audio/shoe.mp3\",\n\t\"./audio/sing.mp3\": \"./src/audio/sing.mp3\",\n\t\"./audio/skip.mp3\": \"./src/audio/skip.mp3\",\n\t\"./audio/skirt.mp3\": \"./src/audio/skirt.mp3\",\n\t\"./audio/smile.mp3\": \"./src/audio/smile.mp3\",\n\t\"./audio/success.mp3\": \"./src/audio/success.mp3\",\n\t\"./audio/surprised.mp3\": \"./src/audio/surprised.mp3\",\n\t\"./audio/swim.mp3\": \"./src/audio/swim.mp3\",\n\t\"./audio/tired.mp3\": \"./src/audio/tired.mp3\",\n\t\"./audio/turtle.mp3\": \"./src/audio/turtle.mp3\",\n\t\"./cards\": \"./src/cards.js\",\n\t\"./cards.js\": \"./src/cards.js\",\n\t\"./img/angry.jpg\": \"./src/img/angry.jpg\",\n\t\"./img/argue.jpg\": \"./src/img/argue.jpg\",\n\t\"./img/audio.svg\": \"./src/img/audio.svg\",\n\t\"./img/big.jpg\": \"./src/img/big.jpg\",\n\t\"./img/bird.jpg\": \"./src/img/bird.jpg\",\n\t\"./img/blouse.jpg\": \"./src/img/blouse.jpg\",\n\t\"./img/boot.jpg\": \"./src/img/boot.jpg\",\n\t\"./img/build.jpg\": \"./src/img/build.jpg\",\n\t\"./img/carry.jpg\": \"./src/img/carry.jpg\",\n\t\"./img/cat.jpg\": \"./src/img/cat.jpg\",\n\t\"./img/catch.jpg\": \"./src/img/catch.jpg\",\n\t\"./img/chick.jpg\": \"./src/img/chick.jpg\",\n\t\"./img/chicken.jpg\": \"./src/img/chicken.jpg\",\n\t\"./img/coat.jpg\": \"./src/img/coat.jpg\",\n\t\"./img/cry.jpg\": \"./src/img/cry.jpg\",\n\t\"./img/dance.jpg\": \"./src/img/dance.jpg\",\n\t\"./img/dive.jpg\": \"./src/img/dive.jpg\",\n\t\"./img/dog.jpg\": \"./src/img/dog.jpg\",\n\t\"./img/dolphin.jpg\": \"./src/img/dolphin.jpg\",\n\t\"./img/draw.jpg\": \"./src/img/draw.jpg\",\n\t\"./img/dress.jpg\": \"./src/img/dress.jpg\",\n\t\"./img/drive.jpg\": \"./src/img/drive.jpg\",\n\t\"./img/drop.jpg\": \"./src/img/drop.jpg\",\n\t\"./img/failure.jpg\": \"./src/img/failure.jpg\",\n\t\"./img/fast.jpg\": \"./src/img/fast.jpg\",\n\t\"./img/fish.jpg\": \"./src/img/fish.jpg\",\n\t\"./img/fish1.jpg\": \"./src/img/fish1.jpg\",\n\t\"./img/fly.jpg\": \"./src/img/fly.jpg\",\n\t\"./img/friendly.jpg\": \"./src/img/friendly.jpg\",\n\t\"./img/frog.jpg\": \"./src/img/frog.jpg\",\n\t\"./img/giraffe.jpg\": \"./src/img/giraffe.jpg\",\n\t\"./img/happy.jpg\": \"./src/img/happy.jpg\",\n\t\"./img/horse.jpg\": \"./src/img/horse.jpg\",\n\t\"./img/hug.jpg\": \"./src/img/hug.jpg\",\n\t\"./img/jump.jpg\": \"./src/img/jump.jpg\",\n\t\"./img/laugh.jpg\": \"./src/img/laugh.jpg\",\n\t\"./img/lion.jpg\": \"./src/img/lion.jpg\",\n\t\"./img/mouse.jpg\": \"./src/img/mouse.jpg\",\n\t\"./img/old.jpg\": \"./src/img/old.jpg\",\n\t\"./img/open.jpg\": \"./src/img/open.jpg\",\n\t\"./img/pants.jpg\": \"./src/img/pants.jpg\",\n\t\"./img/pig.jpg\": \"./src/img/pig.jpg\",\n\t\"./img/play.jpg\": \"./src/img/play.jpg\",\n\t\"./img/point.jpg\": \"./src/img/point.jpg\",\n\t\"./img/pull.jpg\": \"./src/img/pull.jpg\",\n\t\"./img/push.jpg\": \"./src/img/push.jpg\",\n\t\"./img/rabbit.jpg\": \"./src/img/rabbit.jpg\",\n\t\"./img/repeat.svg\": \"./src/img/repeat.svg\",\n\t\"./img/ride.jpg\": \"./src/img/ride.jpg\",\n\t\"./img/rotate.svg\": \"./src/img/rotate.svg\",\n\t\"./img/rotate1.svg\": \"./src/img/rotate1.svg\",\n\t\"./img/run.jpg\": \"./src/img/run.jpg\",\n\t\"./img/sad.jpg\": \"./src/img/sad.jpg\",\n\t\"./img/scared.jpg\": \"./src/img/scared.jpg\",\n\t\"./img/screenshot.png\": \"./src/img/screenshot.png\",\n\t\"./img/sheep.jpg\": \"./src/img/sheep.jpg\",\n\t\"./img/shirt.jpg\": \"./src/img/shirt.jpg\",\n\t\"./img/shoe.jpg\": \"./src/img/shoe.jpg\",\n\t\"./img/sing.jpg\": \"./src/img/sing.jpg\",\n\t\"./img/skip.jpg\": \"./src/img/skip.jpg\",\n\t\"./img/skirt.jpg\": \"./src/img/skirt.jpg\",\n\t\"./img/slow.jpg\": \"./src/img/slow.jpg\",\n\t\"./img/small.jpg\": \"./src/img/small.jpg\",\n\t\"./img/smile.jpg\": \"./src/img/smile.jpg\",\n\t\"./img/star-win.svg\": \"./src/img/star-win.svg\",\n\t\"./img/star.svg\": \"./src/img/star.svg\",\n\t\"./img/success.jpg\": \"./src/img/success.jpg\",\n\t\"./img/surprised.jpg\": \"./src/img/surprised.jpg\",\n\t\"./img/swim.jpg\": \"./src/img/swim.jpg\",\n\t\"./img/tired.jpg\": \"./src/img/tired.jpg\",\n\t\"./img/turtle.jpg\": \"./src/img/turtle.jpg\",\n\t\"./img/unfriendly.jpg\": \"./src/img/unfriendly.jpg\",\n\t\"./img/young.jpg\": \"./src/img/young.jpg\",\n\t\"./img/Без названия (3).svg\": \"./src/img/Без названия (3).svg\",\n\t\"./img/Без названия (4).svg\": \"./src/img/Без названия (4).svg\",\n\t\"./img/Без названия.svg\": \"./src/img/Без названия.svg\",\n\t\"./index.html\": \"./src/index.html\",\n\t\"./script\": \"./src/script.js\",\n\t\"./script.js\": \"./src/script.js\",\n\t\"./styles/hamburger.css\": \"./src/styles/hamburger.css\",\n\t\"./styles/style.css\": \"./src/styles/style.css\",\n\t\"./styles/switcher.css\": \"./src/styles/switcher.css\"\n};\n\n\nfunction webpackContext(req) {\n\tvar id = webpackContextResolve(req);\n\treturn __webpack_require__(id);\n}\nfunction webpackContextResolve(req) {\n\tif(!__webpack_require__.o(map, req)) {\n\t\tvar e = new Error(\"Cannot find module '\" + req + \"'\");\n\t\te.code = 'MODULE_NOT_FOUND';\n\t\tthrow e;\n\t}\n\treturn map[req];\n}\nwebpackContext.keys = function webpackContextKeys() {\n\treturn Object.keys(map);\n};\nwebpackContext.resolve = webpackContextResolve;\nmodule.exports = webpackContext;\nwebpackContext.id = \"./src sync recursive ^\\\\.\\\\/.*$\";\n\n//# sourceURL=webpack:///./src_sync_^\\.\\/.*$?");
 
 /***/ }),
 
@@ -746,7 +746,7 @@ eval("throw new Error(\"Module parse failed: Unexpected character '\\u0004' (1:3
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nvar cards = [['Action (set A)', 'Action (set B)', 'Animal (set A)', 'Animal (set B)', 'Clothes', 'Emotions'], ['img/cry.jpg', 'img/play.jpg', 'img/cat.jpg', 'img/fish.jpg', 'img/dress.jpg', 'img/smile.jpg'], [{\n  word: 'cry',\n  translation: 'плакать',\n  image: 'img/cry.jpg',\n  audioSrc: 'audio/cry.mp3'\n}, {\n  word: 'dance',\n  translation: 'танцевать',\n  image: 'img/dance.jpg',\n  audioSrc: 'audio/dance.mp3'\n}, {\n  word: 'dive',\n  translation: 'нырять',\n  image: 'img/dive.jpg',\n  audioSrc: 'audio/dive.mp3'\n}, {\n  word: 'draw',\n  translation: 'рисовать',\n  image: 'img/draw.jpg',\n  audioSrc: 'audio/draw.mp3'\n}, {\n  word: 'fish',\n  translation: 'ловить рыбу',\n  image: 'img/fish.jpg',\n  audioSrc: 'audio/fish.mp3'\n}, {\n  word: 'fly',\n  translation: 'летать',\n  image: 'img/fly.jpg',\n  audioSrc: 'audio/fly.mp3'\n}, {\n  word: 'hug',\n  translation: 'обнимать',\n  image: 'img/hug.jpg',\n  audioSrc: 'audio/hug.mp3'\n}, {\n  word: 'jump',\n  translation: 'прыгать',\n  image: 'img/jump.jpg',\n  audioSrc: 'audio/jump.mp3'\n}], [{\n  word: 'open',\n  translation: 'открывать',\n  image: 'img/open.jpg',\n  audioSrc: 'audio/open.mp3'\n}, {\n  word: 'play',\n  translation: 'играть',\n  image: 'img/play.jpg',\n  audioSrc: 'audio/play.mp3'\n}, {\n  word: 'point',\n  translation: 'указывать',\n  image: 'img/point.jpg',\n  audioSrc: 'audio/point.mp3'\n}, {\n  word: 'ride',\n  translation: 'ездить',\n  image: 'img/ride.jpg',\n  audioSrc: 'audio/ride.mp3'\n}, {\n  word: 'run',\n  translation: 'бегать',\n  image: 'img/run.jpg',\n  audioSrc: 'audio/run.mp3'\n}, {\n  word: 'sing',\n  translation: 'петь',\n  image: 'img/sing.jpg',\n  audioSrc: 'audio/sing.mp3'\n}, {\n  word: 'skip',\n  translation: 'пропускать, прыгать',\n  image: 'img/skip.jpg',\n  audioSrc: 'audio/skip.mp3'\n}, {\n  word: 'swim',\n  translation: 'плавать',\n  image: 'img/swim.jpg',\n  audioSrc: 'audio/swim.mp3'\n}], [{\n  word: 'cat',\n  translation: 'кот',\n  image: 'img/cat.jpg',\n  audioSrc: 'audio/cat.mp3'\n}, {\n  word: 'chick',\n  translation: 'цыплёнок',\n  image: 'img/chick.jpg',\n  audioSrc: 'audio/chick.mp3'\n}, {\n  word: 'chicken',\n  translation: 'курица',\n  image: 'img/chicken.jpg',\n  audioSrc: 'audio/chicken.mp3'\n}, {\n  word: 'dog',\n  translation: 'собака',\n  image: 'img/dog.jpg',\n  audioSrc: 'audio/dog.mp3'\n}, {\n  word: 'horse',\n  translation: 'лошадь',\n  image: 'img/horse.jpg',\n  audioSrc: 'audio/horse.mp3'\n}, {\n  word: 'pig',\n  translation: 'свинья',\n  image: 'img/pig.jpg',\n  audioSrc: 'audio/pig.mp3'\n}, {\n  word: 'rabbit',\n  translation: 'кролик',\n  image: 'img/rabbit.jpg',\n  audioSrc: 'audio/rabbit.mp3'\n}, {\n  word: 'sheep',\n  translation: 'овца',\n  image: 'img/sheep.jpg',\n  audioSrc: 'audio/sheep.mp3'\n}], [{\n  word: 'bird',\n  translation: 'птица',\n  image: 'img/bird.jpg',\n  audioSrc: 'audio/bird.mp3'\n}, {\n  word: 'fish',\n  translation: 'рыба',\n  image: 'img/fish1.jpg',\n  audioSrc: 'audio/fish.mp3'\n}, {\n  word: 'frog',\n  translation: 'жаба',\n  image: 'img/frog.jpg',\n  audioSrc: 'audio/frog.mp3'\n}, {\n  word: 'giraffe',\n  translation: 'жирафа',\n  image: 'img/giraffe.jpg',\n  audioSrc: 'audio/giraffe.mp3'\n}, {\n  word: 'lion',\n  translation: 'лев',\n  image: 'img/lion.jpg',\n  audioSrc: 'audio/lion.mp3'\n}, {\n  word: 'mouse',\n  translation: 'мышь',\n  image: 'img/mouse.jpg',\n  audioSrc: 'audio/mouse.mp3'\n}, {\n  word: 'turtle',\n  translation: 'черепаха',\n  image: 'img/turtle.jpg',\n  audioSrc: 'audio/turtle.mp3'\n}, {\n  word: 'dolphin',\n  translation: 'дельфин',\n  image: 'img/dolphin.jpg',\n  audioSrc: 'audio/dolphin.mp3'\n}], [{\n  word: 'skirt',\n  translation: 'юбка',\n  image: 'img/skirt.jpg',\n  audioSrc: 'audio/skirt.mp3'\n}, {\n  word: 'pants',\n  translation: 'брюки',\n  image: 'img/pants.jpg',\n  audioSrc: 'audio/pants.mp3'\n}, {\n  word: 'blouse',\n  translation: 'блузка',\n  image: 'img/blouse.jpg',\n  audioSrc: 'audio/blouse.mp3'\n}, {\n  word: 'dress',\n  translation: 'платье',\n  image: 'img/dress.jpg',\n  audioSrc: 'audio/dress.mp3'\n}, {\n  word: 'boot',\n  translation: 'ботинок',\n  image: 'img/boot.jpg',\n  audioSrc: 'audio/boot.mp3'\n}, {\n  word: 'shirt',\n  translation: 'рубашка',\n  image: 'img/shirt.jpg',\n  audioSrc: 'audio/shirt.mp3'\n}, {\n  word: 'coat',\n  translation: 'пальто',\n  image: 'img/coat.jpg',\n  audioSrc: 'audio/coat.mp3'\n}, {\n  word: 'shoe',\n  translation: 'туфли',\n  image: 'img/shoe.jpg',\n  audioSrc: 'audio/shoe.mp3'\n}], [{\n  word: 'sad',\n  translation: 'грустный',\n  image: 'img/sad.jpg',\n  audioSrc: 'audio/sad.mp3'\n}, {\n  word: 'angry',\n  translation: 'сердитый',\n  image: 'img/angry.jpg',\n  audioSrc: 'audio/angry.mp3'\n}, {\n  word: 'happy',\n  translation: 'счастливый',\n  image: 'img/happy.jpg',\n  audioSrc: 'audio/happy.mp3'\n}, {\n  word: 'tired',\n  translation: 'уставший',\n  image: 'img/tired.jpg',\n  audioSrc: 'audio/tired.mp3'\n}, {\n  word: 'surprised',\n  translation: 'удивлённый',\n  image: 'img/surprised.jpg',\n  audioSrc: 'audio/surprised.mp3'\n}, {\n  word: 'scared',\n  translation: 'испуганный',\n  image: 'img/scared.jpg',\n  audioSrc: 'audio/scared.mp3'\n}, {\n  word: 'smile',\n  translation: 'улыбка',\n  image: 'img/smile.jpg',\n  audioSrc: 'audio/smile.mp3'\n}, {\n  word: 'laugh',\n  translation: 'смех',\n  image: 'img/laugh.jpg',\n  audioSrc: 'audio/laugh.mp3'\n}]];\n/* harmony default export */ __webpack_exports__[\"default\"] = (cards);\n\n//# sourceURL=webpack:///./src/cards.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nvar cards = [['Action (set A)', 'Action (set B)', 'Action (set C)', 'Adjective', 'Animal (set A)', 'Animal (set B)', 'Clothes', 'Emotions'], ['img/dance.jpg', 'img/swim.jpg', 'img/drop.jpg', 'img/friendly.jpg', 'img/cat.jpg', 'img/bird.jpg', 'img/blouse.jpg', 'img/smile.jpg'], [{\n  word: 'cry',\n  translation: 'плакать',\n  image: 'img/cry.jpg',\n  audioSrc: 'audio/cry.mp3'\n}, {\n  word: 'dance',\n  translation: 'танцевать',\n  image: 'img/dance.jpg',\n  audioSrc: 'audio/dance.mp3'\n}, {\n  word: 'dive',\n  translation: 'нырять',\n  image: 'img/dive.jpg',\n  audioSrc: 'audio/dive.mp3'\n}, {\n  word: 'draw',\n  translation: 'рисовать',\n  image: 'img/draw.jpg',\n  audioSrc: 'audio/draw.mp3'\n}, {\n  word: 'fish',\n  translation: 'ловить рыбу',\n  image: 'img/fish.jpg',\n  audioSrc: 'audio/fish.mp3'\n}, {\n  word: 'fly',\n  translation: 'летать',\n  image: 'img/fly.jpg',\n  audioSrc: 'audio/fly.mp3'\n}, {\n  word: 'hug',\n  translation: 'обнимать',\n  image: 'img/hug.jpg',\n  audioSrc: 'audio/hug.mp3'\n}, {\n  word: 'jump',\n  translation: 'прыгать',\n  image: 'img/jump.jpg',\n  audioSrc: 'audio/jump.mp3'\n}], [{\n  word: 'open',\n  translation: 'открывать',\n  image: 'img/open.jpg',\n  audioSrc: 'audio/open.mp3'\n}, {\n  word: 'play',\n  translation: 'играть',\n  image: 'img/play.jpg',\n  audioSrc: 'audio/play.mp3'\n}, {\n  word: 'point',\n  translation: 'указывать',\n  image: 'img/point.jpg',\n  audioSrc: 'audio/point.mp3'\n}, {\n  word: 'ride',\n  translation: 'ездить',\n  image: 'img/ride.jpg',\n  audioSrc: 'audio/ride.mp3'\n}, {\n  word: 'run',\n  translation: 'бегать',\n  image: 'img/run.jpg',\n  audioSrc: 'audio/run.mp3'\n}, {\n  word: 'sing',\n  translation: 'петь',\n  image: 'img/sing.jpg',\n  audioSrc: 'audio/sing.mp3'\n}, {\n  word: 'skip',\n  translation: 'пропускать, прыгать',\n  image: 'img/skip.jpg',\n  audioSrc: 'audio/skip.mp3'\n}, {\n  word: 'swim',\n  translation: 'плавать',\n  image: 'img/swim.jpg',\n  audioSrc: 'audio/swim.mp3'\n}], [{\n  word: 'cat',\n  translation: 'кот',\n  image: 'img/cat.jpg',\n  audioSrc: 'audio/cat.mp3'\n}, {\n  word: 'chick',\n  translation: 'цыплёнок',\n  image: 'img/chick.jpg',\n  audioSrc: 'audio/chick.mp3'\n}, {\n  word: 'chicken',\n  translation: 'курица',\n  image: 'img/chicken.jpg',\n  audioSrc: 'audio/chicken.mp3'\n}, {\n  word: 'dog',\n  translation: 'собака',\n  image: 'img/dog.jpg',\n  audioSrc: 'audio/dog.mp3'\n}, {\n  word: 'horse',\n  translation: 'лошадь',\n  image: 'img/horse.jpg',\n  audioSrc: 'audio/horse.mp3'\n}, {\n  word: 'pig',\n  translation: 'свинья',\n  image: 'img/pig.jpg',\n  audioSrc: 'audio/pig.mp3'\n}, {\n  word: 'rabbit',\n  translation: 'кролик',\n  image: 'img/rabbit.jpg',\n  audioSrc: 'audio/rabbit.mp3'\n}, {\n  word: 'sheep',\n  translation: 'овца',\n  image: 'img/sheep.jpg',\n  audioSrc: 'audio/sheep.mp3'\n}], [{\n  word: 'bird',\n  translation: 'птица',\n  image: 'img/bird.jpg',\n  audioSrc: 'audio/bird.mp3'\n}, {\n  word: 'fish',\n  translation: 'рыба',\n  image: 'img/fish1.jpg',\n  audioSrc: 'audio/fish.mp3'\n}, {\n  word: 'frog',\n  translation: 'жаба',\n  image: 'img/frog.jpg',\n  audioSrc: 'audio/frog.mp3'\n}, {\n  word: 'giraffe',\n  translation: 'жирафа',\n  image: 'img/giraffe.jpg',\n  audioSrc: 'audio/giraffe.mp3'\n}, {\n  word: 'lion',\n  translation: 'лев',\n  image: 'img/lion.jpg',\n  audioSrc: 'audio/lion.mp3'\n}, {\n  word: 'mouse',\n  translation: 'мышь',\n  image: 'img/mouse.jpg',\n  audioSrc: 'audio/mouse.mp3'\n}, {\n  word: 'turtle',\n  translation: 'черепаха',\n  image: 'img/turtle.jpg',\n  audioSrc: 'audio/turtle.mp3'\n}, {\n  word: 'dolphin',\n  translation: 'дельфин',\n  image: 'img/dolphin.jpg',\n  audioSrc: 'audio/dolphin.mp3'\n}], [{\n  word: 'skirt',\n  translation: 'юбка',\n  image: 'img/skirt.jpg',\n  audioSrc: 'audio/skirt.mp3'\n}, {\n  word: 'pants',\n  translation: 'брюки',\n  image: 'img/pants.jpg',\n  audioSrc: 'audio/pants.mp3'\n}, {\n  word: 'blouse',\n  translation: 'блузка',\n  image: 'img/blouse.jpg',\n  audioSrc: 'audio/blouse.mp3'\n}, {\n  word: 'dress',\n  translation: 'платье',\n  image: 'img/dress.jpg',\n  audioSrc: 'audio/dress.mp3'\n}, {\n  word: 'boot',\n  translation: 'ботинок',\n  image: 'img/boot.jpg',\n  audioSrc: 'audio/boot.mp3'\n}, {\n  word: 'shirt',\n  translation: 'рубашка',\n  image: 'img/shirt.jpg',\n  audioSrc: 'audio/shirt.mp3'\n}, {\n  word: 'coat',\n  translation: 'пальто',\n  image: 'img/coat.jpg',\n  audioSrc: 'audio/coat.mp3'\n}, {\n  word: 'shoe',\n  translation: 'туфли',\n  image: 'img/shoe.jpg',\n  audioSrc: 'audio/shoe.mp3'\n}], [{\n  word: 'sad',\n  translation: 'грустный',\n  image: 'img/sad.jpg',\n  audioSrc: 'audio/sad.mp3'\n}, {\n  word: 'angry',\n  translation: 'сердитый',\n  image: 'img/angry.jpg',\n  audioSrc: 'audio/angry.mp3'\n}, {\n  word: 'happy',\n  translation: 'счастливый',\n  image: 'img/happy.jpg',\n  audioSrc: 'audio/happy.mp3'\n}, {\n  word: 'tired',\n  translation: 'уставший',\n  image: 'img/tired.jpg',\n  audioSrc: 'audio/tired.mp3'\n}, {\n  word: 'surprised',\n  translation: 'удивлённый',\n  image: 'img/surprised.jpg',\n  audioSrc: 'audio/surprised.mp3'\n}, {\n  word: 'scared',\n  translation: 'испуганный',\n  image: 'img/scared.jpg',\n  audioSrc: 'audio/scared.mp3'\n}, {\n  word: 'smile',\n  translation: 'улыбка',\n  image: 'img/smile.jpg',\n  audioSrc: 'audio/smile.mp3'\n}, {\n  word: 'laugh',\n  translation: 'смех',\n  image: 'img/laugh.jpg',\n  audioSrc: 'audio/laugh.mp3'\n}]];\n/* harmony default export */ __webpack_exports__[\"default\"] = (cards);\n\n//# sourceURL=webpack:///./src/cards.js?");
 
 /***/ }),
 
@@ -762,6 +762,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/img/argue.jpg":
+/*!***************************!*\
+  !*** ./src/img/argue.jpg ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"4a8b02a85ee7520f32cf67db4a5db6d8.jpg\");\n\n//# sourceURL=webpack:///./src/img/argue.jpg?");
+
+/***/ }),
+
 /***/ "./src/img/audio.svg":
 /*!***************************!*\
   !*** ./src/img/audio.svg ***!
@@ -771,6 +783,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"9a762cb8b818462ec4ff0b9364eebebe.svg\");\n\n//# sourceURL=webpack:///./src/img/audio.svg?");
+
+/***/ }),
+
+/***/ "./src/img/big.jpg":
+/*!*************************!*\
+  !*** ./src/img/big.jpg ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"413fc4e4b190b0f970336f9c9ff367b3.jpg\");\n\n//# sourceURL=webpack:///./src/img/big.jpg?");
 
 /***/ }),
 
@@ -810,6 +834,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/img/build.jpg":
+/*!***************************!*\
+  !*** ./src/img/build.jpg ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"707ad85d0d46c1916a76adb92a794eac.jpg\");\n\n//# sourceURL=webpack:///./src/img/build.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/carry.jpg":
+/*!***************************!*\
+  !*** ./src/img/carry.jpg ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"fbea6a03b32b1d89b4687418bdad661d.jpg\");\n\n//# sourceURL=webpack:///./src/img/carry.jpg?");
+
+/***/ }),
+
 /***/ "./src/img/cat.jpg":
 /*!*************************!*\
   !*** ./src/img/cat.jpg ***!
@@ -819,6 +867,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"dd0da6ddfa0192956c69b458e8750228.jpg\");\n\n//# sourceURL=webpack:///./src/img/cat.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/catch.jpg":
+/*!***************************!*\
+  !*** ./src/img/catch.jpg ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"a48f3731f1af83a82ef79b8591361377.jpg\");\n\n//# sourceURL=webpack:///./src/img/catch.jpg?");
 
 /***/ }),
 
@@ -942,6 +1002,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/img/drive.jpg":
+/*!***************************!*\
+  !*** ./src/img/drive.jpg ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"f981927bf224c5610fe148bea445d856.jpg\");\n\n//# sourceURL=webpack:///./src/img/drive.jpg?");
+
+/***/ }),
+
 /***/ "./src/img/drop.jpg":
 /*!**************************!*\
   !*** ./src/img/drop.jpg ***!
@@ -963,6 +1035,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"f7b0f130a798f2fc378622f00a110db9.jpg\");\n\n//# sourceURL=webpack:///./src/img/failure.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/fast.jpg":
+/*!**************************!*\
+  !*** ./src/img/fast.jpg ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"9b7a455444e157293f37570f7f87d7a2.jpg\");\n\n//# sourceURL=webpack:///./src/img/fast.jpg?");
 
 /***/ }),
 
@@ -999,6 +1083,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"0979828e54d9f91b646c264266875efe.jpg\");\n\n//# sourceURL=webpack:///./src/img/fly.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/friendly.jpg":
+/*!******************************!*\
+  !*** ./src/img/friendly.jpg ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"adc604f78b7f8990498fd53bdfe78970.jpg\");\n\n//# sourceURL=webpack:///./src/img/friendly.jpg?");
 
 /***/ }),
 
@@ -1110,6 +1206,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/img/old.jpg":
+/*!*************************!*\
+  !*** ./src/img/old.jpg ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"48388d49053d3c23f7f7e6e1eb43ef41.jpg\");\n\n//# sourceURL=webpack:///./src/img/old.jpg?");
+
+/***/ }),
+
 /***/ "./src/img/open.jpg":
 /*!**************************!*\
   !*** ./src/img/open.jpg ***!
@@ -1170,6 +1278,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/img/pull.jpg":
+/*!**************************!*\
+  !*** ./src/img/pull.jpg ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"7a8b7808b3b1596cc46fccdcb231ba6e.jpg\");\n\n//# sourceURL=webpack:///./src/img/pull.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/push.jpg":
+/*!**************************!*\
+  !*** ./src/img/push.jpg ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"95fc75076bee439c0c8f344d663fbba7.jpg\");\n\n//# sourceURL=webpack:///./src/img/push.jpg?");
+
+/***/ }),
+
 /***/ "./src/img/rabbit.jpg":
 /*!****************************!*\
   !*** ./src/img/rabbit.jpg ***!
@@ -1215,6 +1347,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"8564a665cd6d24805ec6cbbb1c8df495.svg\");\n\n//# sourceURL=webpack:///./src/img/rotate.svg?");
+
+/***/ }),
+
+/***/ "./src/img/rotate1.svg":
+/*!*****************************!*\
+  !*** ./src/img/rotate1.svg ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"847af73cbd6bdb859ff12b1f01172507.svg\");\n\n//# sourceURL=webpack:///./src/img/rotate1.svg?");
 
 /***/ }),
 
@@ -1338,6 +1482,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/img/slow.jpg":
+/*!**************************!*\
+  !*** ./src/img/slow.jpg ***!
+  \**************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"9f5963be56033e64a09cd0f6c197e8b9.jpg\");\n\n//# sourceURL=webpack:///./src/img/slow.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/small.jpg":
+/*!***************************!*\
+  !*** ./src/img/small.jpg ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"62adbef99fc86b3ddcd98f048386b09b.jpg\");\n\n//# sourceURL=webpack:///./src/img/small.jpg?");
+
+/***/ }),
+
 /***/ "./src/img/smile.jpg":
 /*!***************************!*\
   !*** ./src/img/smile.jpg ***!
@@ -1434,6 +1602,66 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 
 /***/ }),
 
+/***/ "./src/img/unfriendly.jpg":
+/*!********************************!*\
+  !*** ./src/img/unfriendly.jpg ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"6267965fa36ea6f6881b43a701ca25b7.jpg\");\n\n//# sourceURL=webpack:///./src/img/unfriendly.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/young.jpg":
+/*!***************************!*\
+  !*** ./src/img/young.jpg ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"7ae81d5fbeae6f3d12a0477c8c572fdd.jpg\");\n\n//# sourceURL=webpack:///./src/img/young.jpg?");
+
+/***/ }),
+
+/***/ "./src/img/Без названия (3).svg":
+/*!**************************************!*\
+  !*** ./src/img/Без названия (3).svg ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"b09db9a10e9123b787720d29b481a03c.svg\");\n\n//# sourceURL=webpack:///./src/img/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_(3).svg?");
+
+/***/ }),
+
+/***/ "./src/img/Без названия (4).svg":
+/*!**************************************!*\
+  !*** ./src/img/Без названия (4).svg ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"70528b6d0beeeda4dcfb949146737d34.svg\");\n\n//# sourceURL=webpack:///./src/img/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F_(4).svg?");
+
+/***/ }),
+
+/***/ "./src/img/Без названия.svg":
+/*!**********************************!*\
+  !*** ./src/img/Без названия.svg ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (__webpack_require__.p + \"9a762cb8b818462ec4ff0b9364eebebe.svg\");\n\n//# sourceURL=webpack:///./src/img/%D0%91%D0%B5%D0%B7_%D0%BD%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F.svg?");
+
+/***/ }),
+
 /***/ "./src/index.html":
 /*!************************!*\
   !*** ./src/index.html ***!
@@ -1453,7 +1681,7 @@ eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nYou may ne
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _cards_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cards.js */ \"./src/cards.js\");\n\n\nvar burger_line = document.querySelector('.hamburger');\nvar burger_all = document.querySelector('.navigation');\nburger_line.addEventListener('click', closeBurg);\n\nfunction closeBurg() {\n  if (burger_all.classList.contains('show-burger')) {\n    burger_all.classList.remove('show-burger');\n  } else {\n    burger_all.classList.add('show-burger');\n  }\n}\n\nvar wrapper_content = document.querySelector('.wrapper-content');\n_cards_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"][0].forEach(function (el, index) {\n  var card = document.createElement('div');\n  var front = document.createElement('div');\n  var image = document.createElement('img');\n  var card_title = document.createElement('div');\n  card.className = 'card';\n  card_title.classList = 'card-title';\n  front.className = 'front';\n  image.className = 'img-card';\n  card.append(front);\n  front.append(image);\n  front.append(card_title);\n  card_title.textContent = String(el);\n  image.src = __webpack_require__(\"./src sync recursive ^\\\\.\\\\/.*$\")(\"./\" + _cards_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"][1][index])[\"default\"];\n  wrapper_content.append(card);\n});\n\n//# sourceURL=webpack:///./src/script.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/style.css */ \"./src/styles/style.css\");\n/* harmony import */ var _styles_style_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_styles_style_css__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _cards_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./cards.js */ \"./src/cards.js\");\n\n\nvar burger_line = document.querySelector('.hamburger');\nvar burger_all = document.querySelector('.navigation');\nburger_line.addEventListener('click', closeBurg);\n\nfunction closeBurg() {\n  if (burger_all.classList.contains('show-burger')) {\n    burger_all.classList.remove('show-burger');\n    burger_line.classList.remove('hamburger-transform');\n  } else {\n    burger_all.classList.add('show-burger');\n    burger_line.classList.add('hamburger-transform');\n  }\n}\n\nvar wrapper_content = document.querySelector('.wrapper-content');\n_cards_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"][0].forEach(function (el, index) {\n  var card = document.createElement('div');\n  var front = document.createElement('div');\n  var image = document.createElement('img');\n  var card_title = document.createElement('div');\n  card.className = 'card';\n  card_title.classList = 'card-title';\n  front.className = 'front';\n  image.className = 'img-card';\n  card.append(front);\n  front.append(image);\n  front.append(card_title);\n  card_title.textContent = String(el);\n  image.src = __webpack_require__(\"./src sync recursive ^\\\\.\\\\/.*$\")(\"./\" + _cards_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"][1][index])[\"default\"];\n  wrapper_content.append(card);\n});\n\n//# sourceURL=webpack:///./src/script.js?");
 
 /***/ }),
 

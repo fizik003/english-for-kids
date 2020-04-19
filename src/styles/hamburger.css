@@ -6,6 +6,19 @@
     display: inline-block;
     margin-top: 5px;
     z-index: 3;
+    transition: .5s all;
+}
+
+.navigation{
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    background: linear-gradient(40deg,#00bf82,#0099ae);
+    left: -300px;
+    transition: .5s all;
+    z-index: 1;
+    
+    
 }
 
 .hamburger::before {
@@ -42,11 +55,40 @@
 }
 
 .hamburger-transform {
-    margin-top: -12px;
     transform: rotate(90deg);
+    transition: .5s all;
 }
 
 .burger {
     position: relative;
     top: 20px;
 }
+
+.show-burger{
+    left: 0px;
+    animation-duration: 0.5s;
+    animation-name: slidein;
+}
+
+.nav{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 125px 50px 50px;
+}
+
+.nav-item{
+    padding-top: 10px;
+    font-size: 22px;
+}
+
+
+@keyframes slidein {
+    from {
+        left: -300px;
+    }
+    to {
+        left: 0;
+    }
+}
+

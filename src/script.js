@@ -7,13 +7,16 @@ const burger_all = document.querySelector('.navigation')
 burger_line.addEventListener('click', closeBurg)
 
 function closeBurg() {
+
   if (burger_all.classList.contains('show-burger')){
     burger_all.classList.remove('show-burger');
+    burger_line.classList.remove('hamburger-transform');
     
   }
   else{
     
     burger_all.classList.add('show-burger');
+    burger_line.classList.add('hamburger-transform');
   }
 }
 
