@@ -46,6 +46,18 @@ cards[0].forEach((el,index)=>{
 
 
 
+const nav = document.querySelector('.nav')
+
+nav.addEventListener('click', (e) => {
+  nav.querySelectorAll('.nav-item').forEach((el) => {
+    el.classList.remove('select-nav-item');
+  })
+    
+    e.target.classList.add('select-nav-item');
+    burger_all.classList.remove('show-burger');
+    burger_line.classList.remove('hamburger-transform');
+
+})
 
 
 

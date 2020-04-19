@@ -80,6 +80,17 @@
 .nav-item{
     padding-top: 10px;
     font-size: 22px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav-item:hover{
+    color: aliceblue;
+}
+
+.select-nav-item{
+    color: darkseagreen;
 }
 
 
