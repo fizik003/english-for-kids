@@ -22,27 +22,35 @@ function closeBurg() {
 
 
 const wrapper_content = document.querySelector('.wrapper-content');
-cards[0].forEach((el,index)=>{
-  const card = document.createElement('div');
-  const front = document.createElement('div');
-  const image = document.createElement('img');
-  const card_title = document.createElement('div');
+function main_page(){
   
-  card.className = 'card';
-  card_title.classList = 'card-title';
-  front.className ='front';
-  image.className = 'img-card';
- 
+  cards[0].forEach((el,index)=>{
+    const card = document.createElement('div');
+    const front = document.createElement('div');
+    const image = document.createElement('img');
+    const card_title = document.createElement('div'); 
+    
+    card.className = 'main-card';
+    card_title.classList = 'card-title';
+    front.className ='front-main';
+    image.className = 'img-card-main';
+   
+    
+    card.append(front)
+    front.append(image)
+    front.append(card_title)
   
-  card.append(front)
-  front.append(image)
-  front.append(card_title)
+    card_title.textContent = String(el)
+  
+    image.src = require('./' + cards[1][index]).default
+    wrapper_content.append(card)
+  })
+  
+}
+main_page()
 
-  card_title.textContent = String(el)
 
-  image.src = require('./' + cards[1][index]).default
-  wrapper_content.append(card)
-})
+
 
 
 
@@ -56,8 +64,53 @@ nav.addEventListener('click', (e) => {
     e.target.classList.add('select-nav-item');
     burger_all.classList.remove('show-burger');
     burger_line.classList.remove('hamburger-transform');
+    show_category(e.target.textContent)
+    console.log(e.target.textContent)
+    console.log(cards[0].indexOf(e.target.textContent))
 
 })
+
+function show_category(category){
+  wrapper_content.innerHTML = ' '
+  if (category === 'Main') main_page()
+  else  create_category(cards[0].indexOf(category))
+}
+
+function create_category(index){
+  cards[index + 2].forEach((el) =>{
+    const card = document.createElement('div');
+    const image = document.createElement('img');
+    const card_title = document.createElement('div');
+    const front = document.createElement('div');
+    const btn_rotate = document.createElement('div');
+
+    card.className = 'card';
+    // image.className = 'img-card';
+    front.className = 'front';
+    card_title.className= 'title-card';
+    btn_rotate.className = 'btn-rotate';
+
+    card_title.textContent = String(el.word)
+    // image.src = require('./' + el.image).default
+    front.style.cssText = "background-image: url(" + require('./' + el.image).default + ");"
+    // btn_rotate.style.cssText = "background-image: url(" + require('./img/arrows.png').default + ");"
+    console.log(require('./'+ el.image).default)
+
+
+    card.append(front);
+    card.append(card_title);
+    card.append(btn_rotate);
+    // front.append(image);
+
+    wrapper_content.append(card)
+  })
+  
+
+}
+
+
+
+
 
 
 

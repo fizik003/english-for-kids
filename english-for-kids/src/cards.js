@@ -103,6 +103,106 @@ const cards = [
   ],
   [
     {
+      word : 'argue',
+      translation: 'спорить',
+      image: 'img/argue.jpg',
+      audioSrc: ''
+    },
+    {
+      word : 'build',
+      translation: 'строить',
+      image: 'img/build.jpg',
+      audioSrc: ''
+    },
+    {
+      word : 'carry',
+      translation: 'нести',
+      image: 'img/carry.jpg',
+      audioSrc: ''
+    },
+    {
+      word : 'catch',
+      translation: 'ловить',
+      image: 'img/catch.jpg',
+      audioSrc: ''
+    },
+    {
+      word : 'drive',
+      translation: 'водить машину',
+      image: 'img/drive.jpg',
+      audioSrc: ''
+    },
+    {
+      word : 'drop',
+      translation: 'падать',
+      image: 'img/drop.jpg',
+      audioSrc: ''
+    },
+    {
+      word : 'pull',
+      translation: 'тянуть',
+      image: 'img/pull.jpg',
+      audioSrc: ''
+    },
+    {
+      word : 'push',
+      translation: 'толкать',
+      image: 'img/push.jpg',
+      audioSrc: ''
+    },
+  ],
+  [
+    {
+      word : 'big',
+      translation: 'большой',
+      image: 'img/big.jpg',
+      audioSrc: ''
+    },
+    {
+      word : 'small',
+      translation: 'маленький',
+      image: 'img/small.jpg',
+      audioSrc: ''
+    },
+    {
+      word : 'fast',
+      translation: 'быстрый',
+      image: 'img/fast.jpg',
+      audioSrc: ''
+    },
+    {
+      word : 'slow',
+      translation: 'медленный',
+      image: 'img/slow.jpg',
+      audioSrc: ''
+    },
+    {
+      word : 'friendly',
+      translation: 'дружелюбный',
+      image: 'img/friendly.jpg',
+      audioSrc: ''
+    },
+    {
+      word : 'unfriendly',
+      translation: 'недружелюбный',
+      image: 'img/unfriendly.jpg',
+      audioSrc: ''
+    },
+    {
+      word : 'young',
+      translation: 'молодой',
+      image: 'img/young.jpg',
+      audioSrc: ''
+    },
+    {
+      word : 'old',
+      translation: 'старый',
+      image: 'img/old.jpg',
+      audioSrc: ''
+    },
+  ],
+  [
+    {
       word: 'cat',
       translation: 'кот',
       image: 'img/cat.jpg',
