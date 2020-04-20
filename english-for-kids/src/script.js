@@ -85,29 +85,27 @@ function create_category(index){
     const btn_rotate = document.createElement('div');
 
     card.className = 'card';
-    // image.className = 'img-card';
     front.className = 'front';
     card_title.className= 'title-card';
     btn_rotate.className = 'btn-rotate';
 
     card_title.textContent = String(el.word)
-    // image.src = require('./' + el.image).default
+   
     front.style.cssText = "background-image: url(" + require('./' + el.image).default + ");"
-    // btn_rotate.style.cssText = "background-image: url(" + require('./img/arrows.png').default + ");"
     console.log(require('./'+ el.image).default)
 
 
     card.append(front);
     card.append(card_title);
     card.append(btn_rotate);
-    // front.append(image);
 
     wrapper_content.append(card)
   })
-  
-
 }
 
+wrapper_content.addEventListener('click', (e) =>{
+    show_category(e.target.textContent)
+})
 
 
 
