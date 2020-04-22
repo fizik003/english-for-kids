@@ -106,49 +106,49 @@ const cards = [
       word : 'argue',
       translation: 'спорить',
       image: 'img/argue.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/argue.mp3'
     },
     {
       word : 'build',
       translation: 'строить',
       image: 'img/build.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/build.mp3'
     },
     {
       word : 'carry',
       translation: 'нести',
       image: 'img/carry.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/carry.mp3'
     },
     {
       word : 'catch',
       translation: 'ловить',
       image: 'img/catch.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/catch.mp3'
     },
     {
       word : 'drive',
       translation: 'водить машину',
       image: 'img/drive.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/drive.mp3'
     },
     {
       word : 'drop',
       translation: 'падать',
       image: 'img/drop.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/drop.mp3'
     },
     {
       word : 'pull',
       translation: 'тянуть',
       image: 'img/pull.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/pull.mp3'
     },
     {
       word : 'push',
       translation: 'толкать',
       image: 'img/push.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/push.mp3'
     },
   ],
   [
@@ -156,49 +156,49 @@ const cards = [
       word : 'big',
       translation: 'большой',
       image: 'img/big.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/big.mp3'
     },
     {
       word : 'small',
       translation: 'маленький',
       image: 'img/small.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/small.mp3'
     },
     {
       word : 'fast',
       translation: 'быстрый',
       image: 'img/fast.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/fast.mp3'
     },
     {
       word : 'slow',
       translation: 'медленный',
       image: 'img/slow.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/slow.mp3'
     },
     {
       word : 'friendly',
       translation: 'дружелюбный',
       image: 'img/friendly.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/friendly.mp3'
     },
     {
       word : 'unfriendly',
       translation: 'недружелюбный',
       image: 'img/unfriendly.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/unfriendly.mp3'
     },
     {
       word : 'young',
       translation: 'молодой',
       image: 'img/young.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/young.mp3'
     },
     {
       word : 'old',
       translation: 'старый',
       image: 'img/old.jpg',
-      audioSrc: ''
+      audioSrc: 'audio/old.mp3'
     },
   ],
   [

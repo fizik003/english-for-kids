@@ -21,6 +21,10 @@
     
 }
 
+.navigation-red{
+    background: linear-gradient(40deg,#fd6a63,#feb46b);
+}
+
 .hamburger::before {
     content: '';
     position: absolute;

@@ -17,7 +17,7 @@
       display: block; 
       overflow: hidden; 
       cursor: pointer;
-      border: 1px solid #999999; 
+      /* border: 1px solid #00A600;  */
       border-radius: 20px;
   }
   
@@ -36,13 +36,13 @@
   .onoffswitch-inner:before {
       content: "Play";
       padding-left: 11px;
-      background-color: #00A600; color: #FFFFFF;
+      background-color: rgb(247, 78, 48); color: #FFFFFF;
   }
   
   .onoffswitch-inner:after {
       content: "Train";
       padding-right: 11px;
-      background-color: #EEEEEE; color: #999999;
+      background-color: #00A600;; color:  #FFFFFF;
       text-align: right;
   }
   

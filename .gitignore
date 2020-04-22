@@ -1,2 +1,3 @@
 node_modules
-english-for-kids/dist
+english-for-kids/dist/*
+dist
