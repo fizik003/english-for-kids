@@ -1,5 +1,14 @@
 import './styles/style.css';
 import cards from './cards.js';
+
+
+window.addEventListener('mouseup' , (e)=> { 
+  if(!e.target.classList.contains('navigation')  && !e.target.classList.contains('nav') && !e.target.classList.contains('nav_item') && 
+  !e.target.classList.contains('hamburger') && !e.target.classList.contains('burger')  ){
+    closeBurg()
+  }
+})
+
 // burger minu
 const burger_line = document.querySelector('.hamburger');
 const burger_all = document.querySelector('.navigation')
