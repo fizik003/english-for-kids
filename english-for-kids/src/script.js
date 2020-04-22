@@ -3,7 +3,7 @@ import cards from './cards.js';
 
 
 window.addEventListener('mouseup' , (e)=> { 
-  if(!e.target.classList.contains('navigation')  && !e.target.classList.contains('nav') && !e.target.classList.contains('nav_item') && 
+  if( burger_all.classList.contains('show-burger') && !e.target.classList.contains('navigation')  && !e.target.classList.contains('nav') && !e.target.classList.contains('nav_item') && 
   !e.target.classList.contains('hamburger') && !e.target.classList.contains('burger')  ){
     closeBurg()
   }
@@ -103,6 +103,7 @@ function main_page(){
   
 }
 main_page()
+
 
 
 
@@ -276,8 +277,11 @@ const add_listen_to_card = function(){
         add_red_color(checkbox)
       }, 3000 )
     }
-    const next_voice = new Audio (require('./' + src_songs[src_songs.length - 1]).default)
-    next_voice.play()
+    if (src_songs.length > 0){
+      const next_voice = new Audio (require('./' + src_songs[src_songs.length - 1]).default)
+      next_voice.play()
+    }
+    
     const star_succes = document.createElement('div')
     star_succes.classList = 'star-succes'
     document.querySelector('.rating').append(star_succes)
@@ -351,7 +355,10 @@ checkbox.addEventListener('change', ()=>{
   delete_red_color(checkbox)
   go_to_play_mod(checkbox)
   exit_play_mod(checkbox)
-  show_hide_btn_start(checkbox)
+  if (document.querySelector('.btn')){
+    show_hide_btn_start(checkbox)
+  }
+  
   rating_show_hide(checkbox)
   src_songs = []
   document.querySelectorAll('.front').forEach((el) =>{
